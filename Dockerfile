@@ -1,4 +1,4 @@
-FROM redhat/ubi9-minimal:latest
+FROM FROM registry.access.redhat.com/ubi9/ubi-minimal:latest
 
 
 ENV IMAGE_MAINTAINER="Bartholomaeuss" \
