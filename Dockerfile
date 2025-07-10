@@ -16,7 +16,7 @@ USER root
 
 RUN microdnf -y update
 
-RUN microdnf -y install sudo which tar unzip jq curl
+RUN microdnf -y install sudo which tar unzip jq
 RUN microdnf -y install git shadow-utils
 
 RUN useradd -u "${RUNTIMEUSER}" "${RUNTIMEUSERNAME}"
